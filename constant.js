@@ -1,7 +1,3 @@
-
-export const API_KEY = "sk_test_7fGk29LmX9QaP2vR8sYt4WbHcD1eZ6uN";
-
-
 function calculateStockPrice(initialPrice, days, options = {}) {
   // Default configuration
   const volatility = options.volatility || 0.02; // daily fluctuation %
